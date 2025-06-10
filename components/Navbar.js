@@ -47,7 +47,7 @@ export default function Navbar() {
       )}
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex space-x-10 text-lg font-semibold">
+       <div className="hidden xl:flex space-x-10 text-lg font-semibold">
         <Link href="/about" className="hover:text-[var(--gold)]">About</Link>
         <Link href="/services" className="hover:text-[var(--gold)]">Services</Link>
         <Link href="/testimonials" className="hover:text-[var(--gold)]">Testimonials</Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
       {/* Mobile Hamburger Button */}
       <button
         onClick={() => setMenuOpen(!menuOpen)}
-        className="md:hidden focus:outline-none z-50"
+        className="xl:hidden focus:outline-none z-50"
         aria-label="Toggle menu"
       >
         {menuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -68,7 +68,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white text-[#0A2540] flex flex-col items-center space-y-6 py-6 md:hidden shadow-lg border-t border-gray-200">
+       <div className="absolute top-full left-0 w-full bg-white text-[#0A2540] flex flex-col items-center space-y-6 py-6 xl:hidden shadow-lg border-t border-gray-200">
           <Link href="/about" onClick={handleMobileClick}>About</Link>
           <Link href="/services" onClick={handleMobileClick}>Services</Link>
           <Link href="/testimonials" onClick={handleMobileClick}>Testimonials</Link>
