@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section
+    <section id="hero"
       className="relative py-40 px-6 text-center text-white min-h-screen flex items-center"
       style={{
         backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/ilya-pavlov-XPT-OtA0E-8-unsplash.jpg?alt=media&token=ddca0a61-41b6-4640-bddd-1321921e63a6')`,
