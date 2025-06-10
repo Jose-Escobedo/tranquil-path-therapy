@@ -16,7 +16,9 @@ export default function Hero() {
 
 
       <div className="relative max-w-3xl mx-auto">
-        <h1 className="text-5xl font-bold mb-4">Golden Scales Family Therapy</h1>
+       <h1 className="text-5xl font-bold mb-4">
+  <span className="text-[var(--gold)]">Golden Scales</span> Family Therapy
+</h1>
         <p className="text-lg mb-6">
           Helping families find balance, healing, and harmony through compassionate counseling.
         </p>
