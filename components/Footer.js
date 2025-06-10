@@ -26,7 +26,7 @@ export default function Footer() {
           <Link href="/practice-policies" className="hover:text-[var(--gold)]">
             Practice Policies
           </Link>
-          <Link href="/terms-of-service" className="hover:text-[var(--gold)]">
+          <Link href="/accessibility" className="hover:text-[var(--gold)]">
             Accessibility
           </Link>
           <a href="tel:+1234567890" className="hover:text-[var(--gold)]">
