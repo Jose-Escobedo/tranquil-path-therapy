@@ -1,5 +1,7 @@
 
 import AboutSection from '@/components/AboutSection';
+import AboutTeamSection from '@/components/AboutTeamSection';
+import BreadcrumbBanner from '@/components/BreadcrumbBanner';
 
 export const metadata = {
   title: 'About Us | Golden Scales Family Therapy',
@@ -8,5 +10,14 @@ export const metadata = {
 };
 
 export default function AboutPage() {
-  return <AboutSection />;
+  return (<>
+  <BreadcrumbBanner
+  crumbs={[
+    { label: "Home", href: "/" },
+    { label: "About"},
+  ]}
+/>
+  <AboutSection />
+  <AboutTeamSection/>
+  </>);
 }

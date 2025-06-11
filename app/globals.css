@@ -42,3 +42,25 @@ a {
 a:hover {
   color: #8f6804; /* gold-700 */
 }
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .about-team-image {
+    object-position: center 30%; 
+}}
+
+.about-team-image {
+  object-position: center top;
+}
