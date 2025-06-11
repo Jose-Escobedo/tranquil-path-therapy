@@ -29,7 +29,7 @@ export default function Footer() {
           <Link href="/accessibility" className="hover:text-[var(--gold)]">
             Accessibility
           </Link>
-          <a href="tel:+1234567890" className="hover:text-[var(--gold)]">
+          <a href="tel:+5551234567" className="hover:text-[var(--gold)]">
             (555) 123-4567
           </a>
         </div>
