@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react';
 
 export default function AboutSection() {
   return (
-    <section className="text-[#0A2540] px-6 py-10 md:px-12 max-w-5xl mx-auto">
+    <section className="text-[#0A2540] px-6 py-15 md:px-12 max-w-5xl mx-auto">
       <h1 className="text-5xl font-bold mb-8">About Golden Scales Family Therapy</h1>
       <p className="text-lg leading-relaxed mb-6">
         At Golden Scales Family Therapy, we are dedicated to helping individuals, couples, and families navigate life&apos;s challenges with compassion and care.

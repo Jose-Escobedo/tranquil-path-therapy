@@ -55,11 +55,15 @@ export default function AppointmentForm() {
   return (
     <section className="w-full bg-[#0A2540] py-16 md:py-24 px-6 text-white">
       <div className="max-w-4xl mx-auto text-center mb-12 text-white">
-        <h2 className="text-3xl font-bold text-[var(--gold)] mb-2">Request an Appointment</h2>
-        <p className="text-white-700 text-lg">
-          Fill out the form below and we&apos;ll be in touch to schedule your session.
-        </p>
-      </div>
+  <h2 className="text-3xl font-bold text-[var(--gold)] mb-2">Request an Appointment</h2>
+  <p className="text-white-700 text-lg">
+    Fill out the form below and we&apos;ll be in touch to schedule your session.
+  </p>
+  <p className="text-sm text-gray-200 mt-2 italic">
+    Please do not include personal health information in your message. This form is not HIPAA-compliant.
+  </p>
+</div>
+
 
     
       {successMessage && (
