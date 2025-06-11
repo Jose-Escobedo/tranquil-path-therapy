@@ -43,8 +43,8 @@ const profiles = {
     contact: '+15551234567',
     rates: [],
   },
-  'lauren-tominac': {
-    name: 'Lauren Tominac, AMFT',
+  'lory-yates': {
+    name: 'Lory Yates, AMFT',
     title: 'Associate Marriage & Family Therapist',
     registration: 'AMFT #123456',
     supervisor: 'Supervised by Michael Cunningham, LMFT',

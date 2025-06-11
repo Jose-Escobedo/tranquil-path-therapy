@@ -24,8 +24,8 @@ export default function AboutTeamSection() {
     image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist_wo.jpeg?alt=media&token=c10f765e-9068-465a-858d-56ef8730724a',
   },
   {
-    name: 'Lauren Tominac',
-    slug: 'lauren-tominac',
+    name: 'Lory Yates',
+    slug: 'lory-yates',
     title: 'Associate Marriage & Family Therapist',
     image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist.jpeg?alt=media&token=239b0933-21bd-4747-8a7f-c33e0d3a3619',
   },
