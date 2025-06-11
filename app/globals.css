@@ -64,3 +64,12 @@ a:hover {
 .about-team-image {
   object-position: center top;
 }
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s infinite;
+}
