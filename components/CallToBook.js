@@ -5,7 +5,7 @@ export default function CallToBook() {
     <section className="max-w-4xl mx-auto my-20 px-6">
       <div className="bg-[var(--gold)] rounded-xl shadow-lg text-center py-12 px-8 flex flex-col items-center md:flex-row md:items-center md:justify-center md:gap-8">
         {/* Phone icon */}
-        <Phone className="w-12 h-12 mb-6 md:mb-0 md:mr-4" />
+        <Phone className="text-white w-12 h-12 mb-6 md:mb-0 md:mr-4" />
 
         {/* Text block */}
         <div className="text-white font-bold">

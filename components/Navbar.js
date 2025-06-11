@@ -67,15 +67,25 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-       <div className="absolute top-full left-0 w-full bg-white text-[#0A2540] flex flex-col items-center space-y-6 py-6 xl:hidden shadow-lg border-t border-gray-200">
-          <Link href="/about" onClick={handleMobileClick}>About</Link>
-          <Link href="/services" onClick={handleMobileClick}>Services</Link>
-          <Link href="/guidance" onClick={handleMobileClick}>Guidance</Link>
-          <Link href="/rates-insurance" onClick={handleMobileClick}>Rates & Insurance</Link>
-          <Link href="/contact" onClick={handleMobileClick}>Contact</Link>
-          <Link href="tel:+tel:+5551234567" onClick={handleMobileClick}>(555) 123-4567</Link>
-        </div>
-      )}
+  <div
+    className="
+      absolute top-full left-0 w-full 
+      bg-white/70 
+      backdrop-blur-md 
+      text-[#0A2540] 
+      flex flex-col items-center space-y-6 py-6 
+      xl:hidden shadow-lg border-t border-gray-200
+    "
+  >
+    <Link href="/about" onClick={handleMobileClick}>About</Link>
+    <Link href="/services" onClick={handleMobileClick}>Services</Link>
+    <Link href="/guidance" onClick={handleMobileClick}>Guidance</Link>
+    <Link href="/rates-insurance" onClick={handleMobileClick}>Rates & Insurance</Link>
+    <Link href="/contact" onClick={handleMobileClick}>Contact</Link>
+    <Link href="tel:+5551234567" onClick={handleMobileClick}>(555) 123-4567</Link>
+  </div>
+)}
+
     </nav>
   );
 }

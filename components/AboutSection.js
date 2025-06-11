@@ -17,12 +17,13 @@ export default function AboutSection() {
       </p>
 
       <a
-        href="tel:+15551234567"
-        className="block w-full bg-[var(--gold)] hover:bg-yellow-400 text-white font-semibold py-5 px-6 text-center text-lg md:text-xl rounded-lg shadow-md transition duration-200 flex items-center justify-center gap-3"
-      >
-        <Phone className="w-6 h-6" />
-        Call today for your free 15 minute phone consultation!
-      </a>
+  href="tel:+15551234567"
+  className="block w-full bg-[var(--gold)] hover:bg-yellow-400 text-white font-semibold py-5 px-6 text-center text-lg md:text-xl rounded-lg shadow-md transition duration-200 flex flex-col items-center gap-2 md:flex-row md:justify-center md:gap-3"
+>
+  <Phone className="w-10 h-10 md:w-6 md:h-6" />
+  <span>Call today for your free 15 minute phone consultation!</span>
+</a>
+
     </section>
   );
 }
