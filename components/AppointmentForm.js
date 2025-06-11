@@ -86,7 +86,7 @@ export default function AppointmentForm() {
             name="fullName"
             value={formData.fullName}
             onChange={handleChange}
-            className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
+            className="border border-gray-300 text-gray-700 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
             required
           />
         </div>
@@ -99,7 +99,7 @@ export default function AppointmentForm() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
+            className="border border-gray-300 text-gray-700 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
             required
           />
         </div>
@@ -111,7 +111,7 @@ export default function AppointmentForm() {
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
+            className="border border-gray-300 text-gray-700 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
             required
           />
         </div>
@@ -124,7 +124,7 @@ export default function AppointmentForm() {
             rows="5"
             value={formData.message}
             onChange={handleChange}
-            className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
+            className="border border-gray-300 text-gray-700 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
             required
           ></textarea>
         </div>

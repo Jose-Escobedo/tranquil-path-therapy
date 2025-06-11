@@ -50,11 +50,10 @@ export default function Navbar() {
        <div className="hidden xl:flex space-x-10 text-lg font-semibold">
         <Link href="/about" className="hover:text-[var(--gold)]">About</Link>
         <Link href="/services" className="hover:text-[var(--gold)]">Services</Link>
-        <Link href="/testimonials" className="hover:text-[var(--gold)]">Testimonials</Link>
         <Link href="/guidance" className="hover:text-[var(--gold)]">Guidance</Link>
         <Link href="/rates-insurance" className="hover:text-[var(--gold)]">Rates & Insurance</Link>
         <Link href="/contact" className="hover:text-[var(--gold)]">Contact</Link>
-        <Link href="tel:+1234567890" className="hover:text-[var(--gold)]">(555) 123-4567</Link>
+        <Link href="tel:+5551234567" className="hover:text-[var(--gold)]">(555) 123-4567</Link>
       </div>
 
       {/* Mobile Hamburger Button */}
@@ -71,11 +70,10 @@ export default function Navbar() {
        <div className="absolute top-full left-0 w-full bg-white text-[#0A2540] flex flex-col items-center space-y-6 py-6 xl:hidden shadow-lg border-t border-gray-200">
           <Link href="/about" onClick={handleMobileClick}>About</Link>
           <Link href="/services" onClick={handleMobileClick}>Services</Link>
-          <Link href="/testimonials" onClick={handleMobileClick}>Testimonials</Link>
           <Link href="/guidance" onClick={handleMobileClick}>Guidance</Link>
           <Link href="/rates-insurance" onClick={handleMobileClick}>Rates & Insurance</Link>
           <Link href="/contact" onClick={handleMobileClick}>Contact</Link>
-          <Link href="tel:+1234567890" onClick={handleMobileClick}>(555) 123-4567</Link>
+          <Link href="tel:+tel:+5551234567" onClick={handleMobileClick}>(555) 123-4567</Link>
         </div>
       )}
     </nav>
