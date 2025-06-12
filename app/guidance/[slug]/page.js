@@ -472,10 +472,10 @@ export default function BlogPost({ params }) {
               Call for a free 15-min consultation
             </p>
             <a
-              href="tel:8184467488"
+              href="tel:5551234567"
               className="text-white text-2xl font-bold hover:underline mt-1"
             >
-              (818) 446-7488
+              (555) 123-4567
             </a>
           </div>
         </aside>
