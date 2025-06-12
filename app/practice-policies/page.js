@@ -1,16 +1,16 @@
-import RatesInsuranceContent from '@/components/RatesInsuranceContent';
+import PracticePoliciesContent from '@/components/PracticePoliciesContent';
 import BreadcrumbBanner from '@/components/BreadcrumbBanner'; 
 
-export default function RatesInsurancePage() {
+export default function PracticePoliciesPage() {
   const crumbs = [
     { label: 'Home', href: '/' },
-    { label: 'Rates & Insurance' },
+    { label: 'Practice Policies' },
   ];
 
   return (
     <>
       <BreadcrumbBanner crumbs={crumbs} />
-      <RatesInsuranceContent />
+      <PracticePoliciesContent />
     </>
   );
 }
