@@ -402,7 +402,7 @@ function renderContent(content) {
       case 'heading':
         if (block.level === 3) {
           return (
-            <h3 key={i} className="font-bold mt-8 mb-2">
+            <h3 key={i} className="font-bold mt-8 mb-2 text-2xl">
               {block.text}
             </h3>
           );
@@ -415,93 +415,71 @@ function renderContent(content) {
   });
 }
 
-
-
-
 export default function BlogPost({ params }) {
   const post = blogPosts.find((p) => p.slug === params.slug);
 
-  const crumbs = [
-  { label: 'Home', href: '/' },
-  { label: 'Guidance', href: '/guidance' },
-  { label: post.title }, 
-];
-
   if (!post) return notFound();
+
+  const crumbs = [
+    { label: 'Home', href: '/' },
+    { label: 'Guidance', href: '/guidance' },
+    { label: post.title },
+  ];
 
   const moreGuidance = blogPosts.filter((p) => p.slug !== params.slug);
 
   return (
     <>
-    <BreadcrumbBanner crumbs={crumbs} />
-    <section className="max-w-6xl mx-auto px-6 py-16 text-gray-900 grid grid-cols-1 lg:grid-cols-3 gap-12">
-      <article className="lg:col-span-2">
-  <p className="text-sm text-[var(--gold)] font-semibold">{post.category}</p>
-  <h1 className="text-4xl font-bold my-2">{post.title}</h1>
-  <p className="text-sm text-gray-500 mb-6">Posted {post.date}</p>
+      <BreadcrumbBanner crumbs={crumbs} />
+      <section className="max-w-6xl mx-auto px-6 py-16 text-gray-900 grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <article className="lg:col-span-2">
+          <p className="text-sm text-[var(--gold)] font-semibold">{post.category}</p>
+          <h1 className="text-4xl font-bold my-2">{post.title}</h1>
+          <p className="text-sm text-gray-500 mb-6">Posted {post.date}</p>
 
-  <div className="relative w-full h-64 mb-8 rounded-lg overflow-hidden">
-    <Image
-      src={post.imageUrl}
-      alt={post.title}
-      fill
-      className="object-cover"
-      sizes="(max-width: 768px) 100vw, 768px"
-    />
-  </div>
+          <div className="relative w-full h-64 mb-8 rounded-lg overflow-hidden">
+            <Image
+              src={post.imageUrl}
+              alt={post.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
+          </div>
 
-  <div className="bg-white/80 rounded-xl shadow-md p-8">
-    <div className="prose prose-lg max-w-none [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:mt-10 [&_h3]:mb-4">
-      {post.content.map((block, i) => {
-        if (block.type === 'heading') {
-          const HeadingTag = `h${block.level}`;
-          return <HeadingTag key={i}>{block.text}</HeadingTag>;
-        }
-        if (block.type === 'bold') {
-          return <p key={i}><strong>{block.text}</strong></p>;
-        }
-        if (block.type === 'paragraph') {
-          if (block.text) return <p key={i}>{block.text}</p>;
-          if (block.textParts) return <p key={i}>{block.textParts.join('')}</p>;
-        }
-        return null;
-      })}
-    </div>
-  </div>
-</article>
+          <div className="bg-white/80 rounded-xl shadow-md p-8 prose prose-lg max-w-none">
+            {renderContent(post.content)}
+          </div>
+        </article>
 
+        <aside className="lg:col-span-1">
+          <div className="bg-gray-50 p-6 rounded-lg shadow-sm mb-6">
+            <h3 className="text-2xl font-bold mb-4">More Guidance</h3>
+            <ul className="space-y-3">
+              {moreGuidance.map((item, i) => (
+                <li key={i}>
+                  <Link href={`/guidance/${item.slug}`} className="text-[var(--gold)] hover:underline">
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-
-<aside className="lg:col-span-1">
-  <div className="bg-gray-50 p-6 rounded-lg shadow-sm mb-6">
-    <h3 className="text-2xl font-bold mb-4">More Guidance</h3>
-    <ul className="space-y-3">
-      {moreGuidance.map((item, i) => (
-        <li key={i}>
-          <Link href={`/guidance/${item.slug}`} className="text-[var(--gold)] hover:underline">
-            {item.title}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </div>
-
-  <div className="bg-[var(--gold)] rounded-lg shadow-md py-6 px-6 text-center flex flex-col items-center">
-    <Phone className="text-white w-8 h-8 mb-3" />
-    <p className="text-white text-base font-semibold leading-tight">
-      Call for a free 15-min consultation
-    </p>
-    <a
-      href="tel:8184467488"
-      className="text-white text-2xl font-bold hover:underline mt-1"
-    >
-      (818) 446-7488
-    </a>
-  </div>
-</aside>
-
-
-    </section>
+          <div className="bg-[var(--gold)] rounded-lg shadow-md py-6 px-6 text-center flex flex-col items-center">
+            <Phone className="text-white w-8 h-8 mb-3" />
+            <p className="text-white text-base font-semibold leading-tight">
+              Call for a free 15-min consultation
+            </p>
+            <a
+              href="tel:8184467488"
+              className="text-white text-2xl font-bold hover:underline mt-1"
+            >
+              (818) 446-7488
+            </a>
+          </div>
+        </aside>
+      </section>
     </>
   );
 }
