@@ -9,7 +9,7 @@ const blogPosts = [
     title: 'Is Individual Therapy Right for You? What to Expect in Your First Sessions',
     date: 'March 27, 2025',
     summary:
-      'Feeling overwhelmed or stuck in a rut? One-on-one therapy creates a space where you can unpack emotions, build self-awareness, and work through personal struggles with guidance. Learn what individual therapy looks like and how it can support your growth.',
+      'Feeling overwhelmed by stress, anxiety, or major life changes? Taking the step to seek therapy can be a powerful way to understand yourself better and find support through difficult times.',
     href: '/guidance/individual-therapy-first-session',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-alex-green-5699431-min.jpg?alt=media&token=1b683679-a061-4450-85c7-442c00dfbc1d',
@@ -19,7 +19,7 @@ const blogPosts = [
     title: 'When to Consider Therapy: 10 Signs You Shouldn’t Ignore',
     date: 'March 6, 2025',
     summary:
-      'Not sure if therapy is right for you? From feeling constantly anxious to struggling with relationships or sleep, here are 10 common signs that it might be time to seek support from a licensed therapist.',
+      'Life gets overwhelming. We all experience emotional ups and downs, but how do you know when it might be time to seek professional help? Therapy can offer guidance, relief, and clarity — especially when your mental health starts to affect your daily life.',
     href: '/guidance/10-signs-you-might-need-therapy',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-cottonbro-4100638-min.jpg?alt=media&token=9af9e2cb-fa47-4041-ab95-34976bb15557',
@@ -29,7 +29,7 @@ const blogPosts = [
     title: 'How Family Counseling Builds Stronger Connections at Home',
     date: 'February 6, 2025',
     summary:
-      'Families go through difficult seasons, and counseling can offer clarity and healing. Explore how family therapy helps build communication, resolve tension, and create a more connected home environment.',
+      'Every family goes through tough seasons. Whether it’s ongoing conflict, communication breakdowns, or adjusting to major life changes, these challenges can take a toll on relationships at home. Family counseling offers a space where everyone’s voice can be heard and where healing can begin — together.',
     href: '/guidance/benefits-of-family-counseling',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-polina-zimmerman-3958379-min.jpg?alt=media&token=e6ef61b9-ef00-46ea-a91f-8652d5e2d79d',
@@ -39,7 +39,7 @@ const blogPosts = [
     title: 'Understanding Family Therapy: Goals, Tools, and What to Expect',
     date: 'January 3, 2025',
     summary:
-      'Family therapy is more than just group talk—it’s about learning how to navigate conflict and rebuild trust. Discover what happens in sessions and the different approaches therapists use to help families thrive.',
+      'Family life can be deeply fulfilling — but it’s also where many of our most complex challenges arise. When communication breaks down, conflicts escalate, or major transitions occur, families can benefit from guided support. Family therapy is designed to help loved ones reconnect, heal emotional wounds, and function more effectively as a unit.',
     href: '/guidance/family-therapy-explained',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-shkrabaanthony-5217833.jpg?alt=media&token=010d94b0-2c87-4fc4-8acc-5ad281ceead4',

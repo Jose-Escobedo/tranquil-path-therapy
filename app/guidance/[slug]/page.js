@@ -86,7 +86,119 @@ const blogPosts = [
     category: 'Individual Therapy',
     title: 'When to Consider Therapy: 10 Signs You Shouldn’t Ignore',
     date: 'March 6, 2025',
-    content: `Ever feel like you’re carrying the weight of the world but can’t explain why?...`,
+    content: [
+  {
+    type: 'paragraph',
+    text: 'Life gets overwhelming. We all experience emotional ups and downs, but how do you know when it might be time to seek professional help?',
+  },
+  {
+    type: 'paragraph',
+    text: 'Therapy can offer guidance, relief, and clarity — especially when your mental health starts to affect your daily life. If you’re unsure whether therapy is the right step, here are 10 common signs that might indicate it’s time to talk to a professional.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '1. You Feel Constantly Overwhelmed',
+  },
+  {
+    type: 'paragraph',
+    text: 'If stress feels like a daily battle and small tasks leave you drained, therapy can help you develop coping skills and better manage your responsibilities.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '2. You’re Struggling to Sleep or Eat Normally',
+  },
+  {
+    type: 'paragraph',
+    text: 'Changes in sleep and appetite can be physical signs of emotional distress. A therapist can help you uncover what’s behind these disruptions.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '3. You’re Withdrawing from Friends and Family',
+  },
+  {
+    type: 'paragraph',
+    text: 'Isolation can be a red flag. If you’ve lost interest in socializing or feel disconnected, therapy offers a safe space to process those feelings.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '4. You Can’t Seem to “Snap Out of It”',
+  },
+  {
+    type: 'paragraph',
+    text: 'When sadness or irritability lingers for weeks, it might be more than just a rough patch. A therapist can help you get to the root cause.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '5. You’re Using Unhealthy Coping Mechanisms',
+  },
+  {
+    type: 'paragraph',
+    text: 'Turning to substances, overeating, or avoiding problems can mask deeper issues. Therapy helps replace these habits with healthier tools.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '6. You’ve Experienced a Major Life Change',
+  },
+  {
+    type: 'paragraph',
+    text: 'Big transitions like divorce, job loss, or a move can trigger emotional distress. Therapy provides support while you navigate change.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '7. You’re Feeling Hopeless or Numb',
+  },
+  {
+    type: 'paragraph',
+    text: 'If you’re feeling like nothing matters or struggling to find joy, it’s important not to ignore these feelings. A therapist can help you reconnect with yourself.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '8. You’re Constantly Overthinking or Feeling Stuck',
+  },
+  {
+    type: 'paragraph',
+    text: 'When your thoughts become exhausting or repetitive, therapy helps you gain clarity and break mental cycles.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '9. Your Relationships Are Suffering',
+  },
+  {
+    type: 'paragraph',
+    text: 'Arguments, distance, or communication issues can be signs of emotional strain. Therapy can improve how you relate to others and yourself.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: '10. You Just Don’t Feel Like Yourself',
+  },
+  {
+    type: 'paragraph',
+    text: 'Sometimes the biggest clue is a quiet inner voice saying, “Something’s off.” Trust that feeling. Therapy can help you explore and realign with who you are.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'Taking the First Step',
+  },
+  {
+    type: 'paragraph',
+    text: 'Recognizing that you might need help is already a courageous act. Whether you relate to one or many of these signs, reaching out for therapy is a powerful move toward healing and self-understanding.',
+  },
+  {
+    type: 'paragraph',
+    text: 'You deserve support — and you don’t have to go through it alone.',
+  },
+],
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-cottonbro-4100638-min.jpg?alt=media&token=9af9e2cb-fa47-4041-ab95-34976bb15557',
   },
@@ -95,7 +207,81 @@ const blogPosts = [
     category: 'Family Counseling',
     title: 'How Family Counseling Builds Stronger Connections at Home',
     date: 'February 6, 2025',
-    content: `Families go through difficult seasons, and counseling can offer clarity and healing...`,
+    content: [
+  {
+    type: 'paragraph',
+    text: 'Every family goes through tough seasons. Whether it’s ongoing conflict, communication breakdowns, or adjusting to major life changes, these challenges can take a toll on relationships at home.',
+  },
+  {
+    type: 'paragraph',
+    text: 'Family counseling offers a space where everyone’s voice can be heard and where healing can begin — together.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'What Is Family Counseling?',
+  },
+  {
+    type: 'paragraph',
+    text: 'Family counseling is a form of therapy that involves multiple family members working with a licensed therapist to address emotional, behavioral, or relational issues affecting the family system.',
+  },
+  {
+    type: 'paragraph',
+    text: 'The goal is to strengthen relationships, improve communication, and build healthier dynamics that support the well-being of everyone involved.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'Common Reasons Families Seek Counseling',
+  },
+  {
+    type: 'paragraph',
+    text: 'Families come to therapy for many reasons, including:',
+  },
+  {
+    type: 'paragraph',
+    text: '• Frequent arguments or tension at home\n• Parent-child conflicts or behavioral concerns\n• Coping with divorce, separation, or blended family transitions\n• Grief or loss affecting the household\n• Mental health or substance use struggles within the family',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'How Family Therapy Helps',
+  },
+  {
+    type: 'paragraph',
+    text: 'In sessions, therapists guide families through conversations that may feel too difficult to have on their own. Counseling helps identify patterns, clarify expectations, and foster empathy among members.',
+  },
+  {
+    type: 'paragraph',
+    text: 'Over time, families often develop healthier communication habits, stronger emotional bonds, and more respectful ways of resolving conflict.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'What to Expect in Family Counseling',
+  },
+  {
+    type: 'paragraph',
+    text: 'Therapy sessions might include all members of the household or just some, depending on the situation. The therapist creates a supportive space where each person can express themselves without fear of judgment or blame.',
+  },
+  {
+    type: 'paragraph',
+    text: 'You’ll work together to set goals and create strategies that bring more peace, understanding, and connection at home.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'You’re Not Alone — Help Is Available',
+  },
+  {
+    type: 'paragraph',
+    text: 'Struggles within a family can feel isolating, but support is available. Seeking therapy is not a sign of failure — it’s a sign of care and a commitment to healthier relationships.',
+  },
+  {
+    type: 'paragraph',
+    text: 'If your family is feeling stuck or disconnected, consider counseling as a path toward healing and growth. You don’t have to navigate this alone.',
+  },
+],
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-polina-zimmerman-3958379-min.jpg?alt=media&token=e6ef61b9-ef00-46ea-a91f-8652d5e2d79d',
   },
@@ -104,7 +290,81 @@ const blogPosts = [
     category: 'Family Therapy',
     title: 'Understanding Family Therapy: Goals, Tools, and What to Expect',
     date: 'January 3, 2025',
-    content: `Family therapy is more than just talking—it’s a guided process of healing and communication...`,
+    content: [
+  {
+    type: 'paragraph',
+    text: 'Family life can be deeply fulfilling — but it’s also where many of our most complex challenges arise. When communication breaks down, conflicts escalate, or major transitions occur, families can benefit from guided support.',
+  },
+  {
+    type: 'paragraph',
+    text: 'Family therapy is designed to help loved ones reconnect, heal emotional wounds, and function more effectively as a unit.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'What Is Family Therapy?',
+  },
+  {
+    type: 'paragraph',
+    text: 'Family therapy is a type of counseling that focuses on improving the relationships and interactions between family members. A licensed therapist works with the family to explore patterns, dynamics, and sources of conflict.',
+  },
+  {
+    type: 'paragraph',
+    text: 'It’s not about assigning blame — it’s about creating understanding and fostering healthier ways of relating to one another.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'Goals of Family Therapy',
+  },
+  {
+    type: 'paragraph',
+    text: 'While each family is unique, common goals of therapy include:',
+  },
+  {
+    type: 'paragraph',
+    text: 'Improving communication skills, reducing tension and conflict, rebuilding trust and emotional safety, supporting major life transitions (e.g., divorce, relocation, illness). Helping children and parents feel more connected.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'Tools and Techniques Used',
+  },
+  {
+    type: 'paragraph',
+    text: 'Therapists may use a variety of evidence-based approaches such as structural therapy, systems theory, cognitive-behavioral strategies, and emotion-focused techniques.',
+  },
+  {
+    type: 'paragraph',
+    text: 'Sessions often include open dialogue, communication exercises, problem-solving strategies, and role-play to help families practice healthier interactions in real time.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'What to Expect in a Session',
+  },
+  {
+    type: 'paragraph',
+    text: 'Sessions typically last about 50 minutes to an hour and may involve all family members or just a few, depending on the issues being addressed.',
+  },
+  {
+    type: 'paragraph',
+    text: 'The therapist creates a neutral and safe environment where everyone can be heard, and helps guide the family toward mutual understanding and cooperation.',
+  },
+  {
+    type: 'heading',
+    level: 3,
+    text: 'Healing Takes Time — and Commitment',
+  },
+  {
+    type: 'paragraph',
+    text: 'Change doesn’t happen overnight, but with commitment and willingness, families often experience deep emotional healing, stronger bonds, and more peaceful daily life.',
+  },
+  {
+    type: 'paragraph',
+    text: 'If your family is navigating stress, conflict, or major change, therapy can be a meaningful path toward restoration and reconnection.',
+  },
+],
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-shkrabaanthony-5217833.jpg?alt=media&token=010d94b0-2c87-4fc4-8acc-5ad281ceead4',
   },
