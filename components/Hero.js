@@ -23,7 +23,7 @@ export default function Hero() {
           Helping families find balance, healing, and harmony through compassionate counseling.
         </p>
         <a
-          href="#contact"
+          href="/contact"
           className="bg-[var(--gold)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition"
         >
           Schedule a Consultation
