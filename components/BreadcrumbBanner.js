@@ -7,7 +7,7 @@ export default function BreadcrumbBanner({ crumbs = [] }) {
   const current = crumbs[crumbs.length - 1]?.label || '';
 
   return (
-    <div className="bg-[#0A2540] text-white mt-25 py-6 px-6 text-center shadow-md">
+    <div className="bg-[#d0bfae] text-white mt-43 py-6 px-6 text-center shadow-md">
       <h2 className="text-4xl font-extrabold tracking-wide uppercase mb-4">
         {current}
       </h2>
@@ -25,7 +25,7 @@ export default function BreadcrumbBanner({ crumbs = [] }) {
                 <>
                   <Link
                     href={crumb.href}
-                    className="hover:text-yellow-400 transition-colors"
+                    className="hover:text-yellow-400  transition-colors"
                   >
                     {crumb.label}
                   </Link>

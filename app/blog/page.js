@@ -2,7 +2,7 @@ import BreadcrumbBanner from '@/components/BreadcrumbBanner';
 import GuidanceSection from '@/components/GuidanceSection';
 
 export const metadata = {
-  title: 'Guidance | Golden Scales Family Therapy',
+  title: 'Blog | Tranquil Path Therapy',
   description:
     'Explore helpful articles and resources on individual and family therapy, mental health guidance, and answers to your therapy questions.',
 };
@@ -13,7 +13,7 @@ export default function GuidancePage() {
       <BreadcrumbBanner
         crumbs={[
           { label: 'Home', href: '/' },
-          { label: 'Guidance' },
+          { label: 'Blog' },
         ]}
       />
       <GuidanceSection />

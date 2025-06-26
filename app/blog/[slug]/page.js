@@ -422,7 +422,7 @@ export default function BlogPost({ params }) {
 
   const crumbs = [
     { label: 'Home', href: '/' },
-    { label: 'Guidance', href: '/guidance' },
+    { label: 'Blog', href: '/blog' },
     { label: post.title },
   ];
 
@@ -454,11 +454,11 @@ export default function BlogPost({ params }) {
 
         <aside className="lg:col-span-1">
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm mb-6">
-            <h3 className="text-2xl font-bold mb-4">More Guidance</h3>
+            <h3 className="text-2xl font-bold mb-4">More Blogs</h3>
             <ul className="space-y-3">
               {moreGuidance.map((item, i) => (
                 <li key={i}>
-                  <Link href={`/guidance/${item.slug}`} className="text-[var(--gold)] hover:underline">
+                  <Link href={`/blog/${item.slug}`} className="text-[var(--gold)] hover:underline">
                     {item.title}
                   </Link>
                 </li>
