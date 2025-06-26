@@ -1,6 +1,6 @@
-# Family Counseling Center
+# Therapy Center Website
 
-A professional website for a Family Counseling Center.  
+A professional website for a Therapy Center.  
 Built with **Next.js** and **Tailwind CSS**.
 
 ## Features
