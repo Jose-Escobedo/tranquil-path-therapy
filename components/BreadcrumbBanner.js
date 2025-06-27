@@ -25,7 +25,7 @@ export default function BreadcrumbBanner({ crumbs = [] }) {
                 <>
                   <Link
                     href={crumb.href}
-                    className="hover:text-yellow-400  transition-colors"
+                    className="hover:text-yellow-400 text-black transition-colors"
                   >
                     {crumb.label}
                   </Link>

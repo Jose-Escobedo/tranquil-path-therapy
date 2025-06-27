@@ -4,7 +4,7 @@ export default function AccessibilityContent() {
       <h1 className="text-4xl font-bold mb-8 text-center">Accessibility Statement</h1>
 
       <p>
-        Golden Scales is committed to ensuring digital accessibility for all users, including individuals with disabilities. We strive to provide an inclusive experience for everyone who visits our website.
+        Tranquil Path Therapy is committed to ensuring digital accessibility for all users, including individuals with disabilities. We strive to provide an inclusive experience for everyone who visits our website.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">Measures to support accessibility</h2>
@@ -23,9 +23,9 @@ export default function AccessibilityContent() {
       </p>
 
       <div className="bg-gray-50 p-4 rounded-md max-w-md mx-auto my-4 text-center">
-        <p><strong>Golden Scales Family Counseling</strong></p>
+        <p><strong>Tranquil Path Therapy</strong></p>
         <p>Phone: (555) 123-4567</p>
-        <p>Email: <a href="mailto:support@therapysitestudio.com" className="text-[var(--gold)] hover:underline">support@therapysitestudio.com</a></p>
+        <p>Email: <a href="mailto:support@therapysitestudio.com" className="text-[var(--cta)] hover:underline">support@therapysitestudio.com</a></p>
       </div>
 
       <p className="mt-6 italic text-sm text-gray-600 text-center">
