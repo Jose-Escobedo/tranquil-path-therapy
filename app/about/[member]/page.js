@@ -3,12 +3,12 @@ import BreadcrumbBanner from '@/components/BreadcrumbBanner';
 import Image from 'next/image';
 
 const profiles = {
-  'michael-cunningham': {
-    name: 'Michael Cunningham',
+  'john-smith': {
+    name: 'John Smith',
     title: 'Owner and Licensed Marriage & Family Therapist',
     registration: 'LMFT #123456',
     supervisor: null,
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist_ma.jpeg?alt=media&token=b94e5309-108c-4b81-9f19-c97837fc10e3',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_man_therapis%20(1).jpeg?alt=media&token=350f60f9-1733-4d61-bc17-8cdedee84b0b',
     bio: `Therapy is a space for transformation. With over a decade of experience, I offer a safe environment to explore life’s challenges. I believe therapy works best through trust and honest collaboration. Whether you're facing family struggles, relationship issues, or personal growth challenges, I'm here to guide and support you.`,
     contact: '+15551234567',
     rates: [
@@ -18,12 +18,12 @@ const profiles = {
       '$260 – per 90 minute session (couple or family)',
     ],
   },
-  'robert-westin': {
-    name: 'Robert Westin',
+  'henry-zubac': {
+    name: 'Henry Zubac',
     title: 'Licensed Marriage and Family Therapist & Clinical Supervisor',
     registration: 'LMFT #123456',
     supervisor: null,
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist_man.jpeg?alt=media&token=7abf50cb-c204-4e3e-8a95-c3b26f967ddf',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_man_therapis%20(2).jpeg?alt=media&token=a102abc7-7999-49db-a724-f4400bedc3a2',
     bio: `With years of experience in clinical supervision and therapy, I help therapists and clients thrive. My focus is helping families and couples navigate complex emotional landscapes using practical and empathetic approaches.`,
     contact: '+15551234567',
     rates: [
@@ -33,22 +33,22 @@ const profiles = {
       '$270 – per 90 minute session (couple or family)',
     ],
   },
-  'kristy-hicks': {
-    name: 'Kristy Hicks',
+  'rachel-stanford': {
+    name: 'Rachel Stanford',
     title: 'Administrative Coordinator',
     registration: null,
     supervisor: null,
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist_wo.jpeg?alt=media&token=c10f765e-9068-465a-858d-56ef8730724a',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_woman_therap%20(5).jpeg?alt=media&token=6c3047a0-cd99-4ee9-a429-fe4008a23497',
     bio: `As the Administrative Coordinator, I ensure that every client receives smooth, professional, and welcoming support when they reach out. I'm your point of contact for questions about scheduling, billing, and getting matched with the right therapist.`,
     contact: '+15551234567',
     rates: [],
   },
-  'lory-yates': {
-    name: 'Lory Yates, AMFT',
+  'amber-cole': {
+    name: 'Amber Cole, AMFT',
     title: 'Associate Marriage & Family Therapist',
     registration: 'AMFT #123456',
-    supervisor: 'Supervised by Michael Cunningham, LMFT',
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist.jpeg?alt=media&token=239b0933-21bd-4747-8a7f-c33e0d3a3619',
+    supervisor: 'Supervised by John Smith, LMFT',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_woman_therap%20(3).jpeg?alt=media&token=0f771ac8-d2ce-474b-bb23-ad59f570d6e0',
     bio: `Therapy is a place of growth, self-discovery, and support. I help individuals, couples, and families work through life transitions and emotional challenges by creating a space that feels safe and empowering.`,
     contact: '+15551234567',
     rates: [

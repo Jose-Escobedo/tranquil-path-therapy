@@ -6,40 +6,40 @@ import Link from 'next/link';
 export default function AboutTeamSection() {
  const teamMembers = [
   {
-    name: 'Michael Cunningham',
-    slug: 'michael-cunningham',
+    name: 'John Smith',
+    slug: 'john-smith',
     title: 'Owner and Licensed Marriage & Family Therapist',
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist_ma.jpeg?alt=media&token=b94e5309-108c-4b81-9f19-c97837fc10e3',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_man_therapis%20(1).jpeg?alt=media&token=350f60f9-1733-4d61-bc17-8cdedee84b0b',
   },
   {
-    name: 'Robert Westin',
-    slug: 'robert-westin',
+    name: 'Henry Zubac',
+    slug: 'henry-zubac',
     title: 'Licensed Marriage and Family Therapist & Clinical Supervisor',
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist_man.jpeg?alt=media&token=7abf50cb-c204-4e3e-8a95-c3b26f967ddf',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_man_therapis%20(2).jpeg?alt=media&token=a102abc7-7999-49db-a724-f4400bedc3a2',
   },
   {
-    name: 'Kristy Hicks',
-    slug: 'kristy-hicks',
+    name: 'Rachel Stanford',
+    slug: 'rachel-stanford',
     title: 'Administrative Coordinator',
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist_wo.jpeg?alt=media&token=c10f765e-9068-465a-858d-56ef8730724a',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_woman_therap%20(5).jpeg?alt=media&token=6c3047a0-cd99-4ee9-a429-fe4008a23497',
   },
   {
-    name: 'Lory Yates',
-    slug: 'lory-yates',
+    name: 'Amber Cole',
+    slug: 'amber-cole',
     title: 'Associate Marriage & Family Therapist',
-    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_therapist.jpeg?alt=media&token=239b0933-21bd-4747-8a7f-c33e0d3a3619',
+    image: 'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_woman_therap%20(3).jpeg?alt=media&token=0f771ac8-d2ce-474b-bb23-ad59f570d6e0',
   },
 ];
 
 
   return (
-    <section className="bg-[#111827] text-white py-20 px-6">
+    <section className="bg-[var(--foreground)] text-white py-20 px-6">
      
       <div className="max-w-3xl mx-auto text-center mb-16 fade-in">
-        <h2 className="text-3xl md:text-4xl font-bold text-[var(--gold)] mb-4">Golden Scales Family Therapy</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[var(--gold)] mb-4">Tranquil Path Therapy</h2>
         <h3 className="text-xl md:text-2xl font-semibold mb-6">Guidance Team</h3>
         <p className="text-lg md:text-xl leading-relaxed text-gray-300">
-          Welcome to Golden Scales, a team of experienced Marriage and Family Therapists dedicated to supporting healthy relationships.
+          Welcome to Tranquil Path Therapy, a team of experienced Marriage and Family Therapists dedicated to supporting healthy relationships.
           We focus on modern family dynamics and offer compassionate, professional guidance to help individuals and families build stronger, more fulfilling connections. Learn more about each team member below and how we can support your journey toward resilience and growth.
         </p>
       </div>
