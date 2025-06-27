@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Golden Scales Family Therapy",
+  title: "Tranquil Path Therapy",
   description: "Helping families find balance, healing, and harmony.",
 };
 
