@@ -53,7 +53,7 @@ export default function AppointmentForm({contact}) {
   };
 
   return (
-    <section className="w-full bg-[#0A2540] py-16 md:py-24 px-6 text-white">
+    <section className="w-full bg-[var(--foreground)]  py-16 md:py-24 px-6 text-white">
       <div className="max-w-4xl mx-auto text-center mb-12 text-white">
   <h2 className="text-3xl font-bold text-[var(--gold)] mb-2">{contact ? ("CONTACT"):("Request an Appointment")}</h2>
   {contact ? (null) : (<p className="text-white-700 text-lg">
@@ -133,7 +133,7 @@ export default function AppointmentForm({contact}) {
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`cursor-pointer bg-[var(--gold)] hover:bg-yellow-400 text-white font-semibold py-3 px-8 rounded shadow-md transition flex items-center justify-center ${
+            className={`cursor-pointer bg-[var(--foreground)] hover:bg-yellow-400 text-white font-semibold py-3 px-8 rounded shadow-md transition flex items-center justify-center ${
               isSubmitting ? "opacity-70 cursor-not-allowed" : ""
             }`}
           >

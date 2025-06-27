@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-[#0A2540] py-8 px-6 ">
+    <footer className="bg-[var(--border-muted)] text-[#0A2540] py-8 px-6 ">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
             src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/gstlogo.png?alt=media&token=3be8e5b0-504e-4ea4-8375-a0b17ad22973"
-            alt="Golden Scales Family Therapy Logo"
+            alt="Tranquil Path Therapy Logo"
             width={150}
             height={50}
             priority
@@ -18,7 +18,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-sm text-center md:text-left">
-          &copy; {new Date().getFullYear()} Golden Scales Family Therapy. All rights reserved.
+          &copy; {new Date().getFullYear()} Tranquil Path Therapy. All rights reserved.
         </p>
 
         {/* Links */}

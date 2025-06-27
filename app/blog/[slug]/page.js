@@ -453,32 +453,38 @@ export default function BlogPost({ params }) {
         </article>
 
         <aside className="lg:col-span-1">
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm mb-6">
-            <h3 className="text-2xl font-bold mb-4">More Blogs</h3>
-            <ul className="space-y-3">
-              {moreGuidance.map((item, i) => (
-                <li key={i}>
-                  <Link href={`/blog/${item.slug}`} className="text-[var(--gold)] hover:underline">
-                    {item.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+  {/* More Blogs Section */}
+  <div className="bg-[var(--foreground)] p-6 rounded-xl shadow mb-6">
+    <h3 className="text-2xl font-bold text-[var(--accent-light)] mb-4">More Insights</h3>
+    <ul className="space-y-3">
+      {moreGuidance.map((item, i) => (
+        <li key={i}>
+          <Link
+            href={`/blog/${item.slug}`}
+            className="text-white underline hover:text-black transition"
+          >
+            {item.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
 
-          <div className="bg-[var(--gold)] rounded-lg shadow-md py-6 px-6 text-center flex flex-col items-center">
-            <Phone className="text-white w-8 h-8 mb-3" />
-            <p className="text-white text-base font-semibold leading-tight">
-              Call for a free 15-min consultation
-            </p>
-            <a
-              href="tel:5551234567"
-              className="text-white text-2xl font-bold hover:underline mt-1"
-            >
-              (555) 123-4567
-            </a>
-          </div>
-        </aside>
+  {/* Call-to-Action Box */}
+  <div className="bg-[var(--accent-dark)] rounded-xl shadow-md py-6 px-6 text-center flex flex-col items-center">
+    <Phone className="text-white w-8 h-8 mb-3" />
+    <p className="text-white text-base font-medium leading-tight">
+      Free 15-minute consultation
+    </p>
+    <a
+      href="tel:5551234567"
+      className="text-white text-xl font-bold hover:underline mt-1"
+    >
+      (555) 123-4567
+    </a>
+  </div>
+</aside>
+
       </section>
     </>
   );

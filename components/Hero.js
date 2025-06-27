@@ -25,7 +25,7 @@ export default function Hero() {
           href="/contact"
           className="bg-[#a6794e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#d0bfae] transition"
         >
-          Schedule a Consultation
+          Book a Consultation
         </a>
       </div>
     </section>
